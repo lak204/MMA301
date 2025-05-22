@@ -12,6 +12,7 @@ interface WeatherProps {
 }
 
 const Weather: React.FC<WeatherProps> = ({ weatherData, loading }) => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const backgroundColor = useThemeColor(
     { light: "#fff", dark: "#000" },
     "background"
